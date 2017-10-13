@@ -1,0 +1,22 @@
+{
+  "name": "fash_card_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramiz-Khan/Flashcard-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramiz-Khan/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/Ramiz-Khan/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  }
+}

@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'clozeCard.js' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of /Users/ramizkhan/Desktop/SMU/Homework/Flashcard-Generator/package.json
+5 warn package.json fash_card_generator@1.0.0 No description
+6 verbose installManyTop reading scoped package data from /Users/ramizkhan/Desktop/SMU/Homework/Flashcard-Generator/node_modules/inquirer/package.json
+7 verbose readDependencies loading dependencies from /Users/ramizkhan/Desktop/SMU/Homework/Flashcard-Generator/package.json
+8 silly cache add args [ 'clozeCard.js', null ]
+9 verbose cache add spec clozeCard.js
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'clozeCard.js',
+10 silly cache add   scope: null,
+10 silly cache add   name: null,
+10 silly cache add   rawSpec: 'clozeCard.js',
+10 silly cache add   spec: '/Users/ramizkhan/Desktop/SMU/Homework/Flashcard-Generator/clozeCard.js',
+10 silly cache add   type: 'local' }
+11 silly addLocalTarball shasum (computed) 75e6c30733a4df7778e6bc758293f97a21706cba
+12 verbose addTmpTarball /Users/ramizkhan/Desktop/SMU/Homework/Flashcard-Generator/clozeCard.js not in flight; adding
+13 verbose correctMkdir /Users/ramizkhan/.npm correctMkdir not in flight; initializing
+14 verbose addTmpTarball validating metadata from /Users/ramizkhan/Desktop/SMU/Homework/Flashcard-Generator/clozeCard.js
+15 verbose tar unpack /Users/ramizkhan/Desktop/SMU/Homework/Flashcard-Generator/clozeCard.js
+16 verbose tar unpacking to /var/folders/1_/h8_vqbkx1dlf_h8_0k9yt2f80000gn/T/npm-804-89fc0ccd/unpack-7c5ba547cb54
+17 silly gentlyRm /var/folders/1_/h8_vqbkx1dlf_h8_0k9yt2f80000gn/T/npm-804-89fc0ccd/unpack-7c5ba547cb54 is being purged
+18 verbose gentlyRm don't care about contents; nuking /var/folders/1_/h8_vqbkx1dlf_h8_0k9yt2f80000gn/T/npm-804-89fc0ccd/unpack-7c5ba547cb54
+19 silly gunzTarPerm modes [ '755', '644' ]
+20 error not a package /Users/ramizkhan/Desktop/SMU/Homework/Flashcard-Generator/clozeCard.js
+21 error addLocal Could not install /Users/ramizkhan/Desktop/SMU/Homework/Flashcard-Generator/clozeCard.js
+22 verbose stack Error: ENOENT: no such file or directory, open '/var/folders/1_/h8_vqbkx1dlf_h8_0k9yt2f80000gn/T/npm-804-89fc0ccd/unpack-7c5ba547cb54/package.json'
+22 verbose stack     at Error (native)
+23 verbose cwd /Users/ramizkhan/Desktop/SMU/Homework/Flashcard-Generator
+24 error Darwin 16.7.0
+25 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "clozeCard.js"
+26 error node v4.4.3
+27 error npm  v2.15.1
+28 error path /var/folders/1_/h8_vqbkx1dlf_h8_0k9yt2f80000gn/T/npm-804-89fc0ccd/unpack-7c5ba547cb54/package.json
+29 error code ENOENT
+30 error errno -2
+31 error syscall open
+32 error enoent ENOENT: no such file or directory, open '/var/folders/1_/h8_vqbkx1dlf_h8_0k9yt2f80000gn/T/npm-804-89fc0ccd/unpack-7c5ba547cb54/package.json'
+32 error enoent This is most likely not a problem with npm itself
+32 error enoent and is related to npm not being able to find a file.
+33 verbose exit [ -2, true ]

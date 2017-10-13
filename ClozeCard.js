@@ -1,9 +1,11 @@
-function clozeCard(text, cloze) {
+var clozeCard = function (text, cloze) {
 	this.text = text;
 	this.cloze = cloze;
 
 	this.begining = function() {
-		console.log(this.text);
+		
+		$("#card-content").html("<h1>" + this.text + "</h1>");
+
 	}
 
 	this.clozed = function() {
