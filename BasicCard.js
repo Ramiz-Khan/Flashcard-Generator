@@ -18,3 +18,6 @@ var first = new basicCard("Who was the first president of the united states?","G
 first.printFrontCard();
 
 first.printBackCard();
+
+module.exports = basicCard;
+module.exports = first;
